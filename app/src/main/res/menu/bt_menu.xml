@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".BlueTooth.BlueToothActivity">
+
+    <item android:id="@+id/enable_visibility"
+        android:title="SetVisibility"
+        android:orderInCategory="200"
+        app:showAsAction="never|withText" />
+
+    <item android:id="@+id/discovery"
+        android:title="Discover Devices"
+        android:orderInCategory="100"
+        app:showAsAction="never|withText" />
+
+
+    <item android:id="@+id/disconnect"
+        android:title="Disconnect Devices"
+        android:orderInCategory="300"
+        app:showAsAction="never|withText" />
+
+</menu>
